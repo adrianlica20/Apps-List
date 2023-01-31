@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#0f182e] flex justify-center items-center min-h-screen">
+
+    <div class="bg-white text-[#0f182e] p-10 py-14 shadow-lg rounded-lg max-w-full sm:max-w-4xl">
+        <h1 class="font-bold text-xl text-center">Recently added</h1>
+        <p class="text-center text-sm">The latest tools that help you and your team build software better, together.</p>
+
+        <div id="apps-container" class="flex mt-16 gap-10 flex-col sm:flex-row">
+            <div id="apps-first-set" class="flex flex-col gap-y-16 [&>*]:hover:cursor-pointer">
+                <!-- INSTABUG -->
+                <!-- App container -->
+                <div class="flex gap-x-4 items-center transition-all hover:scale-105">
+                    <!-- App LOGO -->
+                    <img class="w-20 h-20"
+                        src="https://scontent.fotp3-1.fna.fbcdn.net/v/t39.30808-6/326338133_735362954595193_8003319599132500593_n.png?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=946kvY8Di2gAX8X1sKa&_nc_ht=scontent.fotp3-1.fna&oh=00_AfBDhCa-Osp46okWchI-VYbOQgpSM8d5JMIj945sjxSx0Q&oe=63DF37E3"
+                        alt="">
+
+                    <div id="app-description">
+                        <div class="flex">
+                            <h2 class="text-sm font-semibold">Instabug</h2>
+
+                            <div class="svg-container relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1d8736" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+                                <!-- TOOLTIP -->
+                                <span
+                                    class="tooltip absolute bg-[#0f182e] text-white p-3 px-5 shadow-xl rounded text-xs">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-sm">
+                            The top apps in the world rely on Instabug for bug reporting, crash reporting, and in-app
+                            user
+                            feedback.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- OCTOBOX -->
+                <!-- App container -->
+                <div class="flex gap-x-4 items-center  transition-all hover:scale-105">
+                    <!-- App LOGO -->
+                    <img class="w-20 h-20 rounded-full"
+                        src="https://github.com/octobox/extension/blob/main/icons/octobox-64.png?raw=true" alt="">
+
+                    <div id="app-description">
+                        <div class="flex">
+                            <h2 class="text-sm font-semibold">Octobox</h2>
+                            <div class="svg-container relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1d8736" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+                                <!-- TOOLTIP -->
+                                <span
+                                    class="tooltip absolute bg-[#0f182e] text-white p-3 px-5 shadow-xl rounded text-xs">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-sm">
+                            Octobox helps you manage your notification in the same way Gmail helps you manage your
+                            email.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gamma Data Leak Prevention -->
+                <!-- App container -->
+                <div class="flex gap-x-4 items-center  transition-all hover:scale-105">
+                    <!-- App LOGO -->
+                    <img class="w-20 h-20 bg-[#f0f2fb] rounded-full" src="https://gamma.ai/assets/images/gamma-seo.png"
+                        alt="">
+
+                    <div id="app-description">
+                        <div class="flex">
+                            <h2 class="text-sm font-semibold w-max">Gamma Data Leak Prevention</h2>
+                            <div class="svg-container relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1d8736" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+                                <!-- TOOLTIP -->
+                                <span
+                                    class="tooltip absolute bg-[#0f182e] text-white p-3 px-5 shadow-xl rounded text-xs">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-sm">
+                            69% of data breaches start with negligence. One negligent employee could cost your company a
+                            decade worth of reputation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="apps-second-set" class="flex flex-col gap-y-16 [&>*]:hover:cursor-pointer">
+
+                <!-- DeepScan -->
+                <!-- App container -->
+                <div class="flex gap-x-4 items-center  transition-all hover:scale-105">
+                    <!-- App LOGO -->
+                    <img class="w-20 h-20 rounded-full" src="https://avatars.githubusercontent.com/ml/1466?s=140&v=4"
+                        alt="">
+
+                    <div id="app-description">
+                        <div class="flex">
+                            <h2 class="text-sm font-semibold">DeepScan</h2>
+                            <div class="svg-container relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1d8736" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+                                <!-- TOOLTIP -->
+                                <span
+                                    class="tooltip absolute bg-[#0f182e] text-white p-3 px-5 shadow-xl rounded text-xs">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-sm">
+                            DeepScan is an advanced static analysis tool engineered to support JavaScript, TypeScript,
+                            React
+                            and Vue.js.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Leanboard -->
+                <!-- App container -->
+                <div class="flex gap-x-4 items-center  transition-all hover:scale-105">
+                    <!-- App LOGO -->
+                    <img class="w-20 h-20 object-cover"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfeS16g4e6rmM54jz95GlmKd03tUvgmwxJ6w&usqp=CAU"
+                        alt="">
+
+                    <div id="app-description">
+                        <div class="flex">
+                            <h2 class="text-sm font-semibold">LeanBoard</h2>
+                            <div class="svg-container relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1d8736" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+                                <!-- TOOLTIP -->
+                                <span
+                                    class="tooltip absolute bg-[#0f182e] text-white p-3 px-5 shadow-xl rounded text-xs">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-sm">
+                            Lean Board is a collaborative white board with sticky notes which seamlessly connects with
+                            your
+                            GitHub issue.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- iCodeThis -->
+                <!-- App container -->
+                <div class="flex gap-x-4 items-center  transition-all hover:scale-105">
+                    <!-- App LOGO -->
+                    <img class="w-20 h-20 rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1602372352544735232/Fkh3wFUb_400x400.jpg" alt="">
+
+                    <div id="app-description">
+                        <div class="flex">
+                            <h2 class="text-sm font-semibold">iCodeThis</h2>
+                            <div class="svg-container relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#1d8736" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="white" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                </svg>
+                                <!-- TOOLTIP -->
+                                <span
+                                    class="tooltip absolute bg-[#0f182e] text-white p-3 px-5 shadow-xl rounded text-xs">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-sm">
+                            Best platform for beginner and intermediate programmers to practice their knowledge of HTML,
+                            CSS
+                            and JavaScript.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="button-container" class="mx-auto w-max mt-16">
+            <button
+                class="bg-[#0f182e] text-white p-3 px-8 border-2 border-[#0f182e] rounded text-sm transition-all hover:scale-110 hover:bg-white text-[#0f182e] hover:text-[#0f182e] hover:shadow-xl">View
+                all</button>
+        </div>
+    </div>
+</body>
+
+</html>

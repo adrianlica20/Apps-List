@@ -1,0 +1,21 @@
+.tooltip {
+  visibility: hidden;
+  z-index: 1;
+  top: -180%;
+  left: -132%;
+}
+
+.svg-container:hover .tooltip,
+.svg-container:focus .tooltip {
+  visibility: visible;
+}
+
+.tooltip:after {
+  content: ' ';
+  position: absolute;
+  bottom: -8%;
+  left: 47.5%;
+  border-top: 4px solid #0f182e;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
